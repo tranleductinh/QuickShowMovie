@@ -489,6 +489,9 @@ footer {
   padding-top: 16px;
   color: oklch(0.872 0.001 258.338);
 }
+.choose__date-button:focus {
+  background-color: var(--color-primary);
+}
 
 /*======================================*/
 

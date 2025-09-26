@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QuickShow - Guardians of the Galaxy</title>
+    <title>QuickShow - Great Stack</title>
+    <link rel="icon" type="image/svg+xml" href="./imgs/favicon.svg" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +16,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <a class="header__logo">
+      <a href="./index.html" class="header__logo">
         <img class="header__logo-img" src="./imgs/logo_quick_show.svg" alt="" />
       </a>
       <div class="nav" id="navMenu">
@@ -79,8 +81,8 @@
     </header>
     <main>
       <div class="details">
-        <section class="movie-details">
-          <img
+        <section id="movieDetails" class="movie-details">
+          <!-- <img
             src="https://image.tmdb.org/t/p/original/3lwlJL8aW6Wor9tKvME8VoMnBkn.jpg"
             alt="Guardians of the Galaxy"
           />
@@ -157,12 +159,12 @@
                 </svg>
               </button>
             </div>
-          </div>
+          </div> -->
         </section>
         <section class="cast">
           <p class="cast__title">Your Favorite Cast</p>
           <div class="cast__list">
-            <div class="cast__list-item">
+            <div class="cast__list-item" id="castList">
               <div class="cast__item">
                 <img
                   src="	https://image.tmdb.org/t/p/original/2BLyvOUZbjsH83bdpFLqFkMY7pl.jpg"
@@ -180,7 +182,7 @@
             </div>
           </div>
         </section>
-        <section class="date">
+        <section class="date" id="chooseDate">
           <div class="choose__date">
             <div class="absolute__red"></div>
             <div class="absolute__red"></div>
@@ -202,8 +204,8 @@
                 >
                   <path d="m15 18-6-6 6-6"></path>
                 </svg>
-                <span class="choose__date-date">
-                  <button class="choose__date-button">
+                <span class="choose__date-date" id="dateList">
+                  <!-- <button class="choose__date-button">
                     <span>10</span>
                     <span>Nov</span>
                   </button>
@@ -222,7 +224,7 @@
                   <button class="choose__date-button">
                     <span>10</span>
                     <span>Nov</span>
-                  </button>
+                  </button> -->
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
