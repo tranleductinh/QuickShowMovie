@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickShow - Guardians of the Galaxy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@1,91.5,720&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a class="header__logo">
+        <img class="header__logo-img" src="./imgs/logo_quick_show.svg" alt="" />
+      </a>
+      <div class="nav" id="navMenu">
+        <svg
+          id="closeLucide"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-x md:hidden absolute top-6 right-6 w-6 h-6 cursor-pointer"
+          aria-hidden="true"
+        >
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+        <a href="./index.html" class="nav__link">Home</a>
+        <a href="#" class="nav__link">Movies</a>
+        <a href="#" class="nav__link">Theaters</a>
+        <a href="#" class="nav__link">Releases</a>
+      </div>
+      <div class="header__actions">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="m21 21-4.34-4.34"></path>
+          <circle cx="11" cy="11" r="8"></circle>
+        </svg>
+        <button class="button button--primary">Login</button>
+        <svg
+          id="menuLucide"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide__menu"
+          aria-hidden="true"
+        >
+          <path d="M4 12h16"></path>
+          <path d="M4 18h16"></path>
+          <path d="M4 6h16"></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <div class="details">
+        <section class="movie-details">
+          <img
+            src="https://image.tmdb.org/t/p/original/3lwlJL8aW6Wor9tKvME8VoMnBkn.jpg"
+            alt="Guardians of the Galaxy"
+          />
+          <div class="movie-details__info">
+            <div class="absolute__red"></div>
+            <p class="movie-language">ENGLISH</p>
+            <h1 class="movie-details__title">
+              Mission: Impossible - The Final Reckoning
+            </h1>
+            <div class="movie-details__rating">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-star w-5 h-5 text-primary fill-primary"
+                aria-hidden="true"
+              >
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                ></path>
+              </svg>
+              7.6 User Rating
+            </div>
+            <p class="movie-details__description">
+              On the rugged isle of Berk, where Vikings and dragons have been
+              bitter enemies for generations, Hiccup stands apart, defying
+              centuries of tradition when he befriends Toothless, a feared Night
+              Fury dragon. Their unlikely bond reveals the true nature of
+              dragons, challenging the very foundations of Viking society.
+            </p>
+            <p>2h 5m • Action, Family, Fantasy • 2025</p>
+            <div class="movie-details__actions">
+              <button class="button__trailer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-circle-play w-5 h-5"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+                <span>Watch Trailer</span>
+              </button>
+              <button class="button__buy-tickets">Buy Tickets</button>
+              <button class="button__love">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-heart w-5 h-5"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="cast">
+          <p class="cast__title">Your Favorite Cast</p>
+          <div class="cast__list">
+            <div class="cast__list-item">
+              <div class="cast__item">
+                <img
+                  src="	https://image.tmdb.org/t/p/original/2BLyvOUZbjsH83bdpFLqFkMY7pl.jpg"
+                  alt="Guardians of the Galaxy"
+                />
+                <p class="cast__name">Chris Pratt</p>
+              </div>
+              <div class="cast__item">
+                <img
+                  src="	https://image.tmdb.org/t/p/original/2BLyvOUZbjsH83bdpFLqFkMY7pl.jpg"
+                  alt="Guardians of the Galaxy"
+                />
+                <p class="cast__name">Chris Pratt</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="date">
+          <div class="choose__date">
+            <div class="absolute__red"></div>
+            <div class="absolute__red"></div>
+            <div class="choose__date-item">
+              <p class="choose__date-title">Choose Date</p>
+              <div class="choose__date-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-left"
+                  aria-hidden="true"
+                >
+                  <path d="m15 18-6-6 6-6"></path>
+                </svg>
+                <span class="choose__date-date">
+                  <button class="choose__date-button">
+                    <span>10</span>
+                    <span>Nov</span>
+                  </button>
+                  <button class="choose__date-button">
+                    <span>10</span>
+                    <span>Nov</span>
+                  </button>
+                  <button class="choose__date-button">
+                    <span>10</span>
+                    <span>Nov</span>
+                  </button>
+                  <button class="choose__date-button">
+                    <span>10</span>
+                    <span>Nov</span>
+                  </button>
+                  <button class="choose__date-button">
+                    <span>10</span>
+                    <span>Nov</span>
+                  </button>
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-right"
+                  aria-hidden="true"
+                >
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg>
+              </div>
+            </div>
+            <button class="book__now">Book Now</button>
+          </div>
+        </section>
+        <section class="movies__like">
+          <p class="movies__like-title">You May Alsp</p>
+          <div class="movies__list">
+            <article class="movie-card">
+              <img
+                src="./imgs/howtotraindragon.jpg"
+                alt="How to Train Your Dragon poster"
+              />
+              <p class="movie-card__title">How to Train Your Dragon</p>
+              <p class="movie-card__meta">2025 · Action | Family · 2h 5m</p>
+              <div class="movie-card__footer">
+                <button class="movie-card__button">Buy Tickets</button>
+                <span class="movie-card__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star w-4 h-4 text-primary fill-primary"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                  7.6</span
+                >
+              </div>
+            </article>
+            <article class="movie-card">
+              <img src="./imgs/howtotraindragon.jpg" alt="K.O. poster" />
+              <p class="movie-card__title">K.O.</p>
+              <p class="movie-card__meta">2025 · Action | Drama · 1h 24m</p>
+              <div class="movie-card__footer">
+                <button class="movie-card__button">Buy Tickets</button>
+                <span class="movie-card__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class=""
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                  7.4</span
+                >
+              </div>
+            </article>
+            <article class="movie-card">
+              <img
+                src="./imgs/howtotraindragon.jpg"
+                alt="Mission Impossible poster"
+              />
+              <p class="movie-card__title">Mission: Impossible - The Final</p>
+              <p class="movie-card__meta">2025 · Action | Adventure · 2h 50m</p>
+              <div class="movie-card__footer">
+                <button class="movie-card__button">Buy Tickets</button>
+                <span class="movie-card__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star w-4 h-4 text-primary fill-primary"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                  7.2</span
+                >
+              </div>
+            </article>
+            <article class="movie-card">
+              <img src="./imgs/howtotraindragon.jpg" alt="STRAW poster" />
+              <p class="movie-card__title">STRAW</p>
+              <p class="movie-card__meta">2025 · Thriller | Drama · 1h 45m</p>
+              <div class="movie-card__footer">
+                <button class="movie-card__button">Buy Tickets</button>
+                <span class="movie-card__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star w-4 h-4 text-primary fill-primary"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                  8.3</span
+                >
+              </div>
+            </article>
+          </div>
+          <div class="movies__actions">
+            <button class="movies__button">Show more</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer__left">
+          <img src="./imgs/logo_quick_show.svg" alt="" />
+          <p class="footer__text">
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+          <div class="footer__apps">
+            <img src="./imgs/googlePlay.svg" alt="Google Play" />
+            <img
+              class="footer__apps-item"
+              src="./imgs/appStore.svg"
+              alt="App Store"
+            />
+          </div>
+        </div>
+
+        <div class="footer__right">
+          <div class="footer__links">
+            <h2 class="footer__heading">Company</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item"><a href="#">Home</a></li>
+              <li class="footer__menu-item"><a href="#">About us</a></li>
+              <li class="footer__menu-item"><a href="#">Contact us</a></li>
+              <li class="footer__menu-item">
+                <a href="#">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contact">
+            <h2 class="footer__heading">Get in touch</h2>
+            <p class="footer__menu-item">+1-234-567-890</p>
+            <p class="footer__menu-item">contact@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          Copyright 2025 © GreatStack. All Right Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
